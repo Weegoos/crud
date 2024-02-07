@@ -1,0 +1,71 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    border: solid #000 1px;
+    position: absolute;
+    padding: 7px;
+    width: 15%;
+    font-size: 16px;
+    padding-left: 5px;
+    outline: none;
+    color: #000;
+}
+
+input::placeholder{
+    color: gray;
+}
+
+textarea{
+    resize: none;
+    border: solid #000 1px;
+    position: absolute;
+    top:27%;
+    left: 40%;
+    outline: none;
+    width: 16%;
+    height: 15%;
+    padding-left: 5px;
+    color: black;
+    font-size: 16px;
+    overflow-y: scroll;
+}
+
+button{
+    position: absolute;
+    background-color: white;
+    color: #000;
+    top: 44%;
+    left: 43.5%;
+    padding: 7px;
+    text-align: center;
+    border: solid #000 1px;
+    width: 10%;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover{
+    left: 40%;
+    width: 16%;
+    background-color: #000;
+    color: white;
+    border-radius: 5px;
+}
+
+.user_nameInput{
+    top: 15%;
+    left: 40%;
+}
+
+.headline{
+    top: 21%;
+    left: 40%;
+}

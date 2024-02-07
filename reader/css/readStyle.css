@@ -1,0 +1,175 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    /* overflow: hidden; */
+}
+
+.wrapper{
+    position: absolute;
+    border: solid white 1px;
+    width: 25%;
+    height: 100%;
+    overflow-y: scroll;
+    top: 0%;
+    box-shadow: 1px 2px 0px 1px;
+}
+
+.wrapper li{
+    position: relative;
+    border: solid #fafafa 1px;
+    padding: 8px;
+    box-shadow: 1px 0px 1px 1px;
+    margin-bottom: 4px;
+    word-wrap: break-word;
+}
+
+.wrapper .deleteButton {
+    position: relative;
+    margin-top: 5px;
+    background-color: red;
+    color: white;
+    left: 85%;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.wrapper .updateButton{
+    position: relative;
+    margin-top: 5px;
+    background-color: green;
+    color: white;
+    left: 50%;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.wrapper .headline{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.wrapper .content{
+    position: relative;
+    font-size: 16px;
+    word-break: break-all;
+    margin-bottom: 8px;
+}
+
+.wrapper span{
+    margin-right: 25px;
+}
+
+.content{
+    position: absolute;
+    border: solid white 1px;
+    left: 25%;
+    top: 0%;
+    width: 74.9%;
+    height: 100%;
+    overflow-y: scroll;
+    box-shadow: 1px 2px 0px 1px;
+}
+
+.content .contentSpan{
+    position: absolute;
+    left: 1%;
+    top: 2%
+}
+
+.updateData{
+    position: absolute;
+    left: 45%;
+    top: 25%;
+    border: solid transparent 1px;
+    height: 35%;
+    width: 25%;
+    box-shadow: 1px 2px 2px 1px;
+    background-color: white;
+}
+
+.updateData input, textarea{
+    border: solid #000 1px;
+    outline: none;
+    resize: none;
+    padding-left: 5px;
+    font-size: 16px;
+    position: absolute;
+    padding: 5px;
+}
+
+.updateData input{
+    left: 15%;
+    top: 20%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 68%;
+
+}
+
+.updateData textarea{
+    height: 45%;
+    top: 35%;
+    left: 15%;
+    width: 68%;
+}
+
+.updateData{
+    display: none;
+}
+
+.updateData p{
+    position: absolute;
+    left: 36%;
+    top: 5%;
+    font-size: 16px;
+}
+
+
+.authorName{
+    position: relative;
+    left: -29%;
+    border: solid #000 1px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.6s ease;
+    width: 15%;
+    
+}
+
+.authorName:hover{
+    color: white;
+    background-color: black;
+}
+
+.updateButtonForUpdate{
+    position: absolute;
+    border: solid #000 1px;
+    top: 87%;
+    left: 15%;
+    background-color: white;
+    color: black;
+    padding: 7px;
+    width: 15%;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.updateButtonForUpdate:hover{
+    background-color: black;
+    color: white;
+}
