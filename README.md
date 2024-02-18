@@ -1,4 +1,4 @@
-# Assignment 3 | CRUD
+# Lab 2
 
   1. At the beginning we have to launch the project
   2. After launching the application, follow this link: http://localhost:3000/
